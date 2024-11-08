@@ -1,0 +1,168 @@
+/* Reset de margens e padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fonte e cores principais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+header .logo img {
+    width: 150px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* Banner */
+.banner {
+    position: relative;
+    text-align: center;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+}
+
+.banner .banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.banner .banner-text h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.banner .banner-text button {
+    padding: 10px 20px;
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.banner .banner-text button a {
+    color: white;
+    text-decoration: none;
+}
+
+.banner .banner-text button:hover {
+    background-color: #e55b50;
+}
+
+/* Seção de Produtos */
+.produtos {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #fff;
+}
+
+.produtos h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.produtos .produto {
+    display: inline-block;
+    width: 30%;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.produtos .produto:hover {
+    transform: translateY(-10px);
+}
+
+.produtos .produto img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.produtos .produto h3 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.produtos .produto p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.produtos .produto button {
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.produtos .produto button:hover {
+    background-color: #e55b50;
+}
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer .contato {
+    margin-bottom: 10px;
+}
+
+footer .contato a {
+    color: #ff6f61;
+    text-decoration: none;
+}
+
+footer .social a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer .social a:hover {
+    color: #ff6f61;
+}
